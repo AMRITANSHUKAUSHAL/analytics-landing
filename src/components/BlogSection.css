@@ -1,0 +1,96 @@
+.blog-section {
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.blog-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subheading {
+    color: #6A5ACD;
+    font-weight: bold;
+}
+
+.heading {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+.description {
+    color: #666;
+}
+
+.view-all-btn {
+    background-color: #6A5ACD;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.blog-posts {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blog-post {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    text-align: left;
+    padding: 20px;
+}
+
+.post-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.category {
+    color: #6A5ACD;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.post-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.post-description {
+    color: #666;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.author-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author-info {
+    color: #333;
+}
+
+.author-name {
+    font-weight: bold;
+}
+
+.post-date {
+    color: #999;
+    font-size: 0.9em;
+}

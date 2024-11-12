@@ -1,0 +1,21 @@
+.social-proof {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-proof-text {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.social-proof-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-proof-logos img {
+    height: 40px;
+    width: auto;
+}

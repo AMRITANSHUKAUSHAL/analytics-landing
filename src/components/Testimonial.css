@@ -1,0 +1,55 @@
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.sisyphus-logo {
+  margin-bottom: 20px;
+}
+
+.sisyphus-logo img {
+  width: 100px; /* Adjust size as needed */
+  height: auto;
+}
+
+.testimonial-content {
+  max-width: 500px;
+}
+
+.testimonial-text {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.author-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.author-details {
+  text-align: center;
+}
+
+.author-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.author-title {
+  color: #666;
+  font-size: 14px;
+}

@@ -1,0 +1,20 @@
+/* src/components/DashboardPreview.css */
+.dashboard-preview {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.dashboard-stats,
+.dashboard-chat {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.dashboard-stats img {
+    width: 100%;
+    margin-top: 20px;
+}

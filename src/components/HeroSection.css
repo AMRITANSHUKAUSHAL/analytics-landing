@@ -1,0 +1,97 @@
+/* src/components/HeroSection.css */
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #f9fafb;
+}
+
+.hero-content {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-labels {
+    display: flex;
+    align-items: center;
+    padding: 6px 16px;
+    background-color: #f4f3ff;
+    color: #7f56d9;
+    border: 1px solid #e0d7fc;
+    border-radius: 24px;
+    font-size: 0.85em;
+    font-weight: 500;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+.new-feature {
+    background-color: white;
+    padding: 4px 10px;
+    border-radius: 12px;
+    border: 1px solid #e0d7fc;
+}
+
+.dashboard-link {
+    font-weight: 500;
+    color: #7f56d9;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.hero-title {
+    font-size: 2.8em;
+    font-weight: 700;
+    color: #1f2937;
+    margin: 20px 0;
+}
+
+.hero-description {
+    font-size: 1.1em;
+    color: #475467;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.hero-button {
+    font-size: 1em;
+    font-weight: 500;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.demo-button {
+    background-color: #ffffff;
+    color: #475467;
+    border: 1px solid #d1d5db;
+}
+
+.signup-button {
+    background-color: #7f56d9;
+    color: #ffffff;
+}
+
+.hero-image {
+    margin-top: 40px;
+    max-width: 100%;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
